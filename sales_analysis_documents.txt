@@ -1,0 +1,79 @@
+🔹 Practice Problems & Solutions
+Basic Level
+
+Find the total sales.
+👉 Formula: =SUM(E2:E21)
+✔ Answer: Total of Sales column.
+
+Find the average profit.
+👉 Formula: =AVERAGE(H2:H21)
+✔ Answer: Average of Profit column.
+
+Find the highest sales value.
+👉 Formula: =MAX(E2:E21)
+
+Count how many orders were from the "West" region.
+👉 Formula: =COUNTIF(D2:D21,"West")
+
+Q: Count how many orders were for "Laptop".
+A: =COUNTIF(B2:B21,"Laptop")
+
+Intermediate Level
+
+Calculate total sales after discount for each order.
+👉 Formula (new column): =E2-(E2*G2/100)
+
+Find average sales by region.
+👉 Use PivotTable → Rows: Region, Values: Average of Sales.
+
+Find which product generated the highest profit.
+👉 Use PivotTable → Rows: Product, Values: Sum of Profit, then sort.
+
+Q: Calculate total profit margin % for all orders.
+A: =SUM(H2:H21)/SUM(E2:E21)
+
+Advanced Level
+
+Calculate Profit Margin % for each order.
+👉 Formula (new column): =H2/E2
+
+Find month-wise total sales trend.
+👉 Use TEXT(I2,"MMM-YYYY") for month, then PivotTable → Rows: Month, Values: Sum of Sales.
+
+Find top 3 highest sales orders.
+👉 Use =LARGE(E2:E21,{1,2,3})
+
+Q: Identify which month had the highest sales.
+A: Add column =TEXT(I2,"MMM-YYYY") → PivotTable by Month → Max Sales.
+
+Q: Calculate total sales per region per month.
+A: PivotTable → Rows: Region, Columns: Month, Values: Sum of Sales.
+
+Q: Find average discount by product.
+A: PivotTable → Rows: Product, Values: Average of Discount.
+
+Q: Create a dynamic dashboard with:
+
+Pie Chart: Sales by Region
+
+Column Chart: Profit by Category
+
+Line Chart: Monthly Sales Trend
+
+🔹 Expert Level (Real-World Thinking)
+
+Q: Find which region gives the best profit margin.
+A: Add Profit Margin column =H2/E2, then PivotTable by Region → Average of Margin.
+
+Q: Which product is most sensitive to discount (discount ↑ → profit ↓)?
+A: Scatter chart: Discount vs Profit. Look for steep trend.
+
+Q: Calculate Year-to-Date (YTD) sales.
+A: =SUMIFS(E:E,I:I,"<="&TODAY())
+
+Q: Create a formula to find orders above the average sales.
+A: =IF(E2>AVERAGE($E$2:$E$21),"Above Avg","Below Avg")
+
+Q: Rank products based on sales.
+A: =RANK(E2,$E$2:$E$21,0)
+
