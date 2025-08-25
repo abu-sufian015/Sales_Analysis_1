@@ -1,5 +1,6 @@
 # 📊 Excel Sales Analytics Project  
-
+## 🔹 Dashboard Snapshot  
+![Dashboard Screenshot](sales_dashboard.png)
 ## 🔹 Project Overview  
 This project demonstrates **end-to-end Excel data analysis** using a sample sales dataset.  
 It covers **basic to advanced calculations, PivotTables, and dashboarding** to derive business insights.  
@@ -21,8 +22,7 @@ It covers **basic to advanced calculations, PivotTables, and dashboarding** to d
 📌 Profit margins varied significantly by region, with **North leading in efficiency**.  
 📌 Discounts had a visible **impact on profitability** — higher discounts reduced margins.  
 
-## 🔹 Dashboard Snapshot  
-![Dashboard Screenshot](sales_dashboard.png)
+
 ## 🔹 How to Use  
 1. Download the Excel file from this repository.  
 2. Explore PivotTables and dashboards.  
