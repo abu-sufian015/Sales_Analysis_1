@@ -1,13 +1,18 @@
 # 📊 Excel Sales Analytics Project  
 ## 🔹 Dashboard Snapshot  
-![Dashboard Screenshot](sales_dashboard.png)
+---
+![Dashboard Screenshot](sales2d.png)
+
 ## 🔹 Project Overview  
 This project demonstrates **end-to-end Excel data analysis** using a sample sales dataset.  
 It covers **basic to advanced calculations, PivotTables, and dashboarding** to derive business insights.  
 
 ## 🔹 Dataset  
 - 20 sample sales transactions  
-- Fields: OrderID, Product, Category, Region, Sales, Quantity, Discount, Profit, OrderDate  
+- Fields: OrderID, Product, Category, Region, Sales, Quantity, Discount, Profit, OrderDate
+
+---
+![Dashboard Screenshot](cal-col.png)
 
 ## 🔹 Key Excel Skills Applied  
 ✅ Formulas: SUM, AVERAGE, COUNTIF, MAX, IF, RANK, SUMIFS, LARGE  
@@ -111,3 +116,6 @@ It covers **basic to advanced calculations, PivotTables, and dashboarding** to d
 👉 `=RANK(E2,$E$2:$E$21,0)`  
 
 ---
+
+---
+![Dashboard Screenshot](small-cal.png)
