@@ -1,4 +1,6 @@
-# 📊 Excel Sales Analytics Project  
+# 📊 Excel Sales Analytics Project
+This Excel project provides end-to-end data analysis of sales transactions, covering basic to advanced calculations and dashboarding. It leverages formulas and PivotTables to derive key business insights on profitability, sales trends, and regional performance. The project serves as a comprehensive guide for anyone looking to master Excel data analytics.
+
 ## 🔹 Dashboard Snapshot  
 ---
 ![Dashboard Screenshot](sales2d.png)
